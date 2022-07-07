@@ -1,0 +1,95 @@
+.darkmode {
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.message {
+    padding: 1em;
+    background-color: bisque;
+    margin-bottom: 1em;
+}
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    margin: 1em;
+}
+
+.button {
+    padding-top: 0.5em;
+    margin-left: 0.5em;
+}
+
+.buttons {
+    padding-top: 0.5em;
+
+}
+
+.input>label {
+    display: inline-block;
+    width: 15em;
+    padding: 0.5em;
+}
+
+.input>input[type="text"] {
+    /* display: inline-block;
+    width: 15em; */
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+/* .widgets {
+    display:inline-block;
+
+} */
+
+.widget1 {
+    flex: 1;
+    border: 1px solid;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 2em;
+    background-color: azure;
+}
+
+.widget2 {
+    flex: 1;
+    border: 1px solid;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 2em;
+    background-color: antiquewhite;
+}
+
+.widget3 {
+    flex: 1;
+    border: 1px solid;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 2em;
+    background-color: beige;
+}
+
+.widget4 {
+    flex: 1;
+    border: 1px solid;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 2em;
+    background-color:grey;
+}
+
+@media (min-width: 768px) {
+    .widgets {
+        display: flex;
+
+    }
+
+    h1 {
+        margin-left: 15em;
+    }
+}
